@@ -3,10 +3,10 @@ import { Leaf, Award } from "lucide-react";
 
 export function About() {
   return (
-    <section id="about" className="py-16 sm:py-24 bg-background">
+    <section id="about" className="py-16 sm:py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
+          <div className="relative h-96 rounded-lg overflow-hidden shadow-lg opacity-0 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <Image
               src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob25leXxlbnwwfHx8fDE3NTA5Mzk5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Natural ingredients"
@@ -16,7 +16,7 @@ export function About() {
               data-ai-hint="honeycomb farm"
             />
           </div>
-          <div>
+          <div className="opacity-0 animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-headline text-accent mb-4">
               From Nature, With Love
             </h2>

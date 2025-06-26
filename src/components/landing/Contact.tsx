@@ -5,9 +5,9 @@ import { Textarea } from "@/components/ui/textarea";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-16 sm:py-24 bg-primary/10">
+    <section id="contact" className="py-16 sm:py-24 bg-primary/10 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto opacity-0 animate-fade-in-up">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-headline text-accent">
               Get In Touch

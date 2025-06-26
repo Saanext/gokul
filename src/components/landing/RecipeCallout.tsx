@@ -5,9 +5,9 @@ import { Sprout, Beaker, HeartHandshake } from 'lucide-react';
 
 export function RecipeCallout() {
   return (
-    <section id="why-us" className="py-16 sm:py-24">
+    <section id="why-us" className="py-16 sm:py-24 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="relative rounded-lg overflow-hidden shadow-2xl">
+        <div className="relative rounded-lg overflow-hidden shadow-2xl opacity-0 animate-fade-in-up">
            <div className="absolute inset-0">
             <Image
               src="https://images.unsplash.com/photo-1528460033278-a6ba57020470?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc1MTAzOTY5NXww&ixlib=rb-4.1.0&q=80&w=1080"

@@ -18,13 +18,13 @@ export function Hero() {
         />
       </div>
       <div className="relative container mx-auto px-4 z-10 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline mb-4 drop-shadow-lg">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline mb-4 drop-shadow-lg opacity-0 animate-fade-in-up">
           Nature's Harvest
         </h1>
-        <p className="text-xl md:text-2xl max-w-3xl mx-auto font-body mb-8 drop-shadow-md">
+        <p className="text-xl md:text-2xl max-w-3xl mx-auto font-body mb-8 drop-shadow-md opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           Experience the pure essence of nature with our artisanal ghee and forest honey.
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <Button asChild size="lg" className="font-headline bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6">
             <Link href="#products">Shop Now</Link>
           </Button>
@@ -33,7 +33,7 @@ export function Hero() {
           </Button>
         </div>
       </div>
-       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10">
+       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
         <Link href="#about" aria-label="Scroll down">
           <div className="w-8 h-8 flex items-center justify-center rounded-full border-2 border-white text-white animate-bounce">
             <ArrowDown size={20} />

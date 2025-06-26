@@ -32,9 +32,9 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-16 sm:py-24 bg-primary/10">
+    <section id="testimonials" className="py-16 sm:py-24 bg-primary/10 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 opacity-0 animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-headline text-accent">
             Words From Our Community
           </h2>
@@ -47,7 +47,8 @@ export function Testimonials() {
             align: 'start',
             loop: true,
           }}
-          className="w-full max-w-4xl mx-auto"
+          className="w-full max-w-4xl mx-auto opacity-0 animate-fade-in-up"
+          style={{ animationDelay: '200ms' }}
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
