@@ -10,7 +10,6 @@ import { useState, FormEvent, useEffect } from 'react';
 
 const navLinks = [
     { href: '/#products', label: 'Products' },
-    { href: '/recipes', label: 'Recipe Wizard' },
     { href: '/#contact', label: 'Contact' },
 ];
 
