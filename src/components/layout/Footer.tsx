@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center justify-center md:justify-start mb-4">
                 <Leaf className="h-8 w-8 text-accent" />
-                <span className="ml-2 text-2xl font-headline text-foreground">Nature's Harvest</span>
+                <span className="ml-2 text-2xl font-headline text-foreground">Gokul Diary</span>
             </Link>
             <p className="text-foreground/70">Pure Ghee & Forest Honey, from our family to yours.</p>
           </div>
@@ -39,7 +39,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-4 text-center text-sm text-foreground/60">
-          <p>&copy; {currentYear} Nature's Harvest. All Rights Reserved.</p>
+          <p>&copy; {currentYear} Gokul Diary. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

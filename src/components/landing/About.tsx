@@ -21,7 +21,7 @@ export function About() {
               From Nature, With Love
             </h2>
             <p className="mb-6 text-lg text-foreground/80">
-              At Nature's Harvest, we believe in the power of purity. Our ghee and honey are sourced from the finest natural environments, ensuring that every spoonful is packed with wholesome goodness. We follow traditional methods to bring you products that are not just food, but a promise of quality and health.
+              At Gokul Diary, we believe in the power of purity. Our ghee and honey are sourced from the finest natural environments, ensuring that every spoonful is packed with wholesome goodness. We follow traditional methods to bring you products that are not just food, but a promise of quality and health.
             </p>
             <div className="space-y-4">
               <div className="flex items-start">

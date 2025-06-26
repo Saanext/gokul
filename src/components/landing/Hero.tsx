@@ -19,7 +19,7 @@ export function Hero() {
       </div>
       <div className="relative container mx-auto px-4 z-10 text-center">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline mb-4 drop-shadow-lg opacity-0 animate-fade-in-up">
-          Nature's Harvest
+          Gokul Diary
         </h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto font-body mb-8 drop-shadow-md opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           Experience the pure essence of nature with our artisanal ghee and forest honey.

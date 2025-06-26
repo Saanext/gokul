@@ -20,7 +20,7 @@ export function RecipeCallout() {
           </div>
           <div className="relative z-10 text-center text-white p-8 sm:p-12">
             <h2 className="text-3xl md:text-5xl font-headline mb-6">
-              Why Choose Nature's Harvest?
+              Why Choose Gokul Diary?
             </h2>
             <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto">
               Our philosophy is simple: what comes from nature should be returned to you in its purest form. This belief is at the heart of everything we do.

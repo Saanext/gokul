@@ -3,7 +3,7 @@ import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Nature's Harvest",
+  title: "Gokul Diary",
   description: 'Pure Ghee and Forest Honey',
 };
 

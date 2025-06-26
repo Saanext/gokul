@@ -36,7 +36,7 @@ export function Header() {
             <div className="container mx-auto px-4 flex items-center justify-between h-20">
                 <Link href="/" className="flex items-center gap-2">
                     <Leaf className="h-8 w-8 text-accent" />
-                    <span className="text-2xl font-headline font-bold text-foreground">Nature's Harvest</span>
+                    <span className="text-2xl font-headline font-bold text-foreground">Gokul Diary</span>
                 </Link>
 
                 <nav className="hidden md:flex items-center gap-6">
@@ -74,7 +74,7 @@ export function Header() {
                                 <div className="flex justify-between items-center p-4 border-b">
                                     <Link href="/" className="flex items-center gap-2">
                                         <Leaf className="h-6 w-6 text-accent" />
-                                        <span className="text-xl font-headline font-bold text-foreground">Nature's Harvest</span>
+                                        <span className="text-xl font-headline font-bold text-foreground">Gokul Diary</span>
                                     </Link>
                                     <SheetClose asChild>
                                       <Button variant="ghost" size="icon">
