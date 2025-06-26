@@ -18,17 +18,17 @@ export function Hero() {
         />
       </div>
       <div className="relative container mx-auto px-4 z-10 text-center">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline mb-4 drop-shadow-lg opacity-0 animate-fade-in-up">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-headline mb-4 drop-shadow-lg opacity-0 animate-fade-in-up">
           Gokul Diary
         </h1>
-        <p className="text-xl md:text-2xl max-w-3xl mx-auto font-body mb-8 drop-shadow-md opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+        <p className="text-lg md:text-xl max-w-3xl mx-auto font-body mb-8 drop-shadow-md opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           Experience the pure essence of nature with our artisanal ghee and forest honey.
         </p>
-        <div className="flex justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-          <Button asChild size="lg" className="font-headline bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <Button asChild size="lg" className="font-headline bg-primary text-primary-foreground hover:bg-primary/90 text-lg w-full sm:w-auto">
             <Link href="#products">Shop Now</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="font-headline bg-transparent text-white border-white hover:bg-white hover:text-black text-lg px-8 py-6">
+          <Button asChild size="lg" variant="outline" className="font-headline bg-transparent text-white border-white hover:bg-white hover:text-black text-lg w-full sm:w-auto">
             <Link href="#about">Learn More</Link>
           </Button>
         </div>
