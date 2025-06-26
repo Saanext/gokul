@@ -28,7 +28,7 @@ export function Hero() {
           <Button asChild size="lg" className="font-headline bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6">
             <Link href="#products">Shop Now</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="font-headline text-white border-white hover:bg-white hover:text-black text-lg px-8 py-6">
+          <Button asChild size="lg" variant="outline" className="font-headline bg-transparent text-white border-white hover:bg-white hover:text-black text-lg px-8 py-6">
             <Link href="#about">Learn More</Link>
           </Button>
         </div>
