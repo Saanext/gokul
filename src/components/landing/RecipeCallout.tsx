@@ -10,7 +10,7 @@ export function RecipeCallout() {
         <div className="relative rounded-lg overflow-hidden shadow-2xl p-8 sm:p-12 min-h-[400px] flex items-center">
            <div className="absolute inset-0">
             <Image
-              src="https://placehold.co/1200x500.png"
+              src="https://images.unsplash.com/photo-1730190168042-3bef4553a8f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmF0dXJhbCUyMGhvbmV5fGVufDB8fHx8MTc1MDk0NTE5OHww&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Delicious food prepared with honey and ghee"
               layout="fill"
               objectFit="cover"
