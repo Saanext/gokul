@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative h-[90vh] min-h-[600px] flex items-center text-white">
       <div className="absolute inset-0">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://images.pexels.com/photos/13428113/pexels-photo-13428113.jpeg"
           alt="Lush fields representing nature's harvest"
           layout="fill"
           objectFit="cover"
