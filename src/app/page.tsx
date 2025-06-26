@@ -12,7 +12,7 @@ export default function Home({ searchParams }: { searchParams?: { search?: strin
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <Header />
+      <Header initialSearchTerm={searchQuery} />
       <main className="flex-1">
         <Hero />
         <About />

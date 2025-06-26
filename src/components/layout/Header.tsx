@@ -5,18 +5,17 @@ import { Leaf, Search, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { useState, FormEvent, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { useState, FormEvent } from 'react';
 
 const navLinks = [
     { href: '/#products', label: 'Products' },
     { href: '/#contact', label: 'Contact' },
 ];
 
-export function Header() {
+export function Header({ initialSearchTerm = '' }: { initialSearchTerm?: string }) {
     const router = useRouter();
-    const searchParams = useSearchParams();
-    const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+    const [searchTerm, setSearchTerm] = useState(initialSearchTerm);
 
     const handleSearchSubmit = (e: FormEvent) => {
         e.preventDefault();
@@ -26,10 +25,6 @@ export function Header() {
             router.push(`/`);
         }
     };
-    
-    useEffect(() => {
-        setSearchTerm(searchParams.get('search') || '');
-    }, [searchParams]);
 
     return (
         <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b">
