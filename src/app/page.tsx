@@ -5,7 +5,6 @@ import { About } from '@/components/landing/About';
 import { Products } from '@/components/landing/Products';
 import { RecipeCallout } from '@/components/landing/RecipeCallout';
 import { Testimonials } from '@/components/landing/Testimonials';
-import { Blog } from '@/components/landing/Blog';
 import { Contact } from '@/components/landing/Contact';
 
 export default function Home({ searchParams }: { searchParams?: { search?: string } }) {
@@ -20,7 +19,6 @@ export default function Home({ searchParams }: { searchParams?: { search?: strin
         <Products searchQuery={searchQuery} />
         <RecipeCallout />
         <Testimonials />
-        <Blog />
         <Contact />
       </main>
       <Footer />
