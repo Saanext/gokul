@@ -12,10 +12,10 @@ export default function RecipesPage() {
           <div className="max-w-3xl mx-auto text-center">
             <HoneyDipperIcon className="h-16 w-16 mx-auto text-accent mb-4" />
             <h1 className="text-4xl md:text-5xl font-headline text-accent mb-4">
-              AI Recipe Generator
+              Recipe Wizard
             </h1>
             <p className="text-lg text-foreground/80 mb-8">
-              Welcome to our kitchen! Tell us what ingredients you have (especially if you have our ghee and honey), and our AI will whip up a delicious recipe just for you.
+              Welcome to our kitchen! Tell us what ingredients you have (especially if you have our ghee and honey), and our Recipe Wizard will whip up a delicious recipe just for you.
             </p>
           </div>
           <RecipeGeneratorForm />

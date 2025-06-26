@@ -2,7 +2,7 @@
 'use server';
 
 /**
- * @fileOverview Recipe generator AI agent.
+ * @fileOverview Recipe generator agent.
  *
  * - generateRecipe - A function that generates recipes based on user provided ingredients.
  * - RecipeGeneratorInput - The input type for the generateRecipe function.
@@ -36,7 +36,7 @@ const prompt = ai.definePrompt({
   name: 'recipeGeneratorPrompt',
   input: {schema: RecipeGeneratorInputSchema},
   output: {schema: RecipeGeneratorOutputSchema},
-  prompt: `You are a recipe suggestion AI agent specializing in generating recipes that incorporate ghee and honey.
+  prompt: `You are a recipe suggestion expert specializing in generating recipes that incorporate ghee and honey.
 
 You will generate recipes based on the ingredients that the user has on hand, focusing on recipes that prominently feature ghee or honey.
 

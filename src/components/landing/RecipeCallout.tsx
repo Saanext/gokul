@@ -23,7 +23,7 @@ export function RecipeCallout() {
               Don't Just Taste, Create.
             </h2>
             <p className="text-lg md:text-xl mb-8">
-              Got some ingredients but not sure what to make? Let our AI chef inspire you with a custom recipe featuring our delicious ghee and honey.
+              Got some ingredients but not sure what to make? Let our smart chef inspire you with a custom recipe featuring our delicious ghee and honey.
             </p>
             <Button asChild size="lg" className="font-headline bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6">
               <Link href="/recipes">
