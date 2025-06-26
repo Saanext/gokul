@@ -18,7 +18,7 @@ const products = [
     name: 'Pure Desi Ghee',
     description: 'Traditionally churned from the milk of grass-fed cows, our ghee is rich in flavor and nutrients.',
     price: '$19.99',
-    image: 'https://placehold.co/400x400.png',
+    image: 'https://images.unsplash.com/photo-1573812461383-e5f8b759d12e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnaGVlfGVufDB8fHx8MTc1MDgyNzA1MHww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'ghee jar',
     tags: ['Best Seller', 'Organic'],
     nutrition: {
@@ -33,7 +33,7 @@ const products = [
     name: 'Wild Forest Honey',
     description: 'Raw and unfiltered honey sourced from the nectar of wildflowers in dense forests. A true taste of nature.',
     price: '$15.99',
-    image: 'https://placehold.co/400x400.png',
+    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob25leXxlbnwwfHx8fDE3NTA5Mzk5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'honey jar',
     tags: ['Raw', 'Natural'],
      nutrition: {
